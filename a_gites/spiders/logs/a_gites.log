@@ -1,0 +1,330 @@
+2019-01-02 09:59:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/normandie/location-vacances-normandie.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 09:59:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/picardie/location-vacances-picardie.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 09:59:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/nord_pas_de_calais/location-vacances-nord_pas_de_calais.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 09:59:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/franche_comte/location-vacances-franche_comte.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 09:59:51 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/bourgogne/location-vacances-bourgogne.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 09:59:52 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/lorraine/location-vacances-lorraine.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 09:59:53 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/champagne_ardenne/location-vacances-champagne_ardenne.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 09:59:54 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/alsace/location-vacances-alsace.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 09:59:56 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/midi_pyrenees/location-vacances-midi_pyrenees.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 09:59:57 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/provence_alpes_cote_d_azur/location-vacances-provence_alpes_cote_d_azur.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 09:59:58 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/rhones_alpes/location-vacances-rhones_alpes.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 09:59:59 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/limousin/location-vacances-limousin.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 10:00:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/languedoc_roussillon/location-vacances-languedoc_roussillon.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 10:00:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/ile_de_france/location-vacances-ile_de_france.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 10:00:03 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/corse/location-vacances-corse.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 10:00:04 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/auvergne/location-vacances-auvergne.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 10:00:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/aquitaine/location-vacances-aquitaine.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 10:00:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/outre_mer/location-vacances-outre_mer.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 10:00:08 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/poitou_charentes/location-vacances-poitou_charentes.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 10:00:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/centre_val_de_loire/location-vacances-centre_val_de_loire.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 10:00:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/pays_de_la_loire/location-vacances-pays_de_la_loire.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
+2019-01-02 10:00:12 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.a-gites.com/bretagne/location-vacances-bretagne.html> (referer: https://www.a-gites.com/locations-vacances-en-france.php)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/databiz206/Marwen/formation/formation/a_gites/a_gites/spiders/a_gitesspider.py", line 39, in parse_location
+    yield Request(link_annonce, callback=self.parse_annonce, meta={'link_annonce': link_annonce, 'link_location': link_location})
+AttributeError: 'AGitesspiderSpider' object has no attribute 'parse_annonce'
